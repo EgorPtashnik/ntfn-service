@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Notification service using CAP",
   "scripts": {
-    "deploy:cds": "cds deploy --to sqlite"
+    "deploy:cds": "cds deploy --to sqlite",
+    "start:cds": "cds serve"
   },
   "repository": {
     "type": "git",

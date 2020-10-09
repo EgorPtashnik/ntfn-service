@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Notification service using CAP",
   "scripts": {
+    "deploy:cds": "cds deploy --to sqlite"
   },
   "repository": {
     "type": "git",
@@ -13,5 +14,18 @@
   "bugs": {
     "url": "https://github.com/EgorPtashnik/ntfn-service/issues"
   },
-  "homepage": "https://github.com/EgorPtashnik/ntfn-service#readme"
+  "homepage": "https://github.com/EgorPtashnik/ntfn-service#readme",
+  "dependencies": {
+    "@sap/cds": "^4.1.9",
+    "@sap/cds-dk": "^3.0.0",
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.0"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sqlite"
+      }
+    }
+  }
 }

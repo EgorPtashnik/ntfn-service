@@ -1,0 +1,17 @@
+{
+  "name": "ntfn-service",
+  "version": "1.0.0",
+  "description": "Notification service using CAP",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EgorPtashnik/ntfn-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EgorPtashnik/ntfn-service/issues"
+  },
+  "homepage": "https://github.com/EgorPtashnik/ntfn-service#readme"
+}

@@ -1,0 +1,4 @@
+ChannelId,IsActive,Description
+SAP_SMP,0,SAP_SMP Channel
+SAP_EMAIL,0,SAP_EMAIL Channel
+SAP_WEBSOCKET,1,SAP_WEBSOCKET Channel

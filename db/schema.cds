@@ -60,4 +60,3 @@ entity Action {
   GroupActionText: String(40) not null;
   Nature: String(20) not null;
 }
-

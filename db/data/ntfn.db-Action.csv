@@ -1,0 +1,6 @@
+Id,ActionId,ActionText,GroupActionText,Nature
+1,negative_action,Negative,Group Negative,access
+2,positive_action,Positive,Group Positive,positive
+3,default_action,Default,Group Default,negative
+4,negative_action,Default,Group Default,0
+

@@ -42,7 +42,7 @@ entity Notification {
   NotificationTypeDesc: String(40);
   Actor: Actor not null;
 
-  Actions: Association to many Action on Actions.ActionId = NavigationTargetAction;
+  Actions: Association to many Action on Actions.ActionId = NotificationTypeKey;
   NavigationTargetParams: Association to many NavigationTargetParam on NavigationTargetParams.NotificationId = Id;
 }
 
@@ -55,7 +55,8 @@ entity NotificationTypePersonalization {
 }
 
 entity Action {
-  key ActionId: String(32) not null;
+  key Id: Integer not null;
+  ActionId: String(32) not null;
   ActionText: String(40) not null;
   GroupActionText: String(40) not null;
   Nature: String(20) not null;
